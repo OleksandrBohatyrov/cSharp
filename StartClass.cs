@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -113,15 +113,10 @@ namespace cSharp
             Console.WriteLine("{0} ja {1} te istute täna koos ", a, b);*/
 
 
-            Random random = new Random();
-            int N = random.Next(1, 101);
-            int M = random.Next(1, 101);
-            int[] ints= new int[N, M];
-            
-            
-
-
-
+            //Random random = new Random();
+            //int N = random.Next(1, 101);
+            //int M = random.Next(1, 101);
+            //int[] ints= new int[N, M];
 
 
 
@@ -130,30 +125,42 @@ namespace cSharp
 
             //int[] numbers = new int[5];
 
-            
+
             //for (int i = 0; i < 5; i++)
             //{
-            //    Console.Write($"Enter number {i + 1}: ");
+            //    Console.WriteLine($"Sisesta number {i + 1}: ");
             //    numbers[i] = int.Parse(Console.ReadLine());
             //}
-           
+
             //int sum = 0;
             //foreach (int number in numbers)
             //{
             //    sum += number;
             //}
-           
+
             //double arth = (double)sum / numbers.Length;
 
-            //int product = 1;
+            //int korrutis = 1;
             //foreach (int number in numbers)
             //{
-            //    product *= number;
+            //    korrutis *= number;
             //}
 
             //Console.WriteLine($"Summa: {sum}");
-            //Console.WriteLine($"Arithmetic: {arth}");
-            //Console.WriteLine($"Korutamine: {product}");
+            //Console.WriteLine($"Aritmeetiline : {arth}");
+            //Console.WriteLine($"Korrutis: {korrutis}");
+
+            //string name = "Python";
+            //Alamprog.Tere(name);
+            //int a = 12;
+            //int b = 13;
+            //int vastus=Alamprog.Korruta(a, b);
+            //Console.WriteLine(vastus);
+
+            double arithm = Alamprog.Arith(2);
+            Console.WriteLine(arithm);
+
+
         }
 
     }
