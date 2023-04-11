@@ -157,8 +157,18 @@ namespace cSharp
             //int vastus=Alamprog.Korruta(a, b);
             //Console.WriteLine(vastus);
 
-            double arithm = Alamprog.Arith(2);
-            Console.WriteLine(arithm);
+            //double arithm = Alamprog.Arith(2);
+            //Console.WriteLine(arithm);
+
+
+
+            //Alamprog.Jagata(Jagata);
+            //Console.WriteLine(Jagata);
+
+
+            Console.WriteLine(Alamprog.Stars(20));
+            Alamprog.Stars(20);
+
 
 
         }
